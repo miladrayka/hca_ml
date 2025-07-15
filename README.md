@@ -27,6 +27,8 @@ To reproduce all results, tables, and figures, uncompress to *Data.tar.xz* and *
 
 ## CAInsight GUI
 
+<img src="https://github.com/miladrayka/hca_ml/blob/main/Logo.png" alt="drawing" width="600" style="display: block; margin: auto;"/>
+
 CAInsight is an interpretable and uncertainty-aware machine learning software designed to predict the activity and selectivity of human carbonic anhydrase (hCA) isoforms. Specifically, we focus on predicting the activity of three isoforms: hCA II, hCA IX, and hCA XII. 
 
 The primary model relies on a Support Vector Machine (SVM) in conjunction with an Extended Connectivity Fingerprint (ECFP). Each hCA isoform has its own SVM-ECFP binary classifier that returns labels indicating whether they are active or inactive. 
