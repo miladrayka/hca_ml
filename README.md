@@ -9,6 +9,7 @@ It will be added.
 
 ## Contact
 Milad Rayka, milad.rayka@yahoo.com
+Masoumeh Shams, masoumehshams.gh@gmail.com
 
 ## Install
 
@@ -29,10 +30,10 @@ To reproduce all results, tables, and figures, uncompress the *Data.tar.xz* and 
 
 <img src="https://github.com/miladrayka/hca_ml/blob/main/Logo.png" alt="drawing" width="600" style="display: block; margin: auto;"/>
 
-CAInsight is an interpretable and uncertainty-aware machine learning software designed to predict the activity and selectivity of human carbonic anhydrase (hCA) isoforms. Specifically, we focus on predicting the activity of three isoforms: hCA II, hCA IX, and hCA XII. 
+**CAInsight** is an interpretable and uncertainty-aware machine learning software designed to predict the activity and selectivity of human carbonic anhydrase (hCA) isoforms. Specifically, we focus on predicting the activity of three isoforms: hCA II, hCA IX, and hCA XII. 
 
 The primary model relies on a Support Vector Machine (SVM) in conjunction with an Extended Connectivity Fingerprint (ECFP). Each hCA isoform has its own SVM-ECFP binary classifier that returns labels indicating whether they are active or inactive. 
 We enhance our models with [conformal prediction](https://pubs.acs.org/doi/abs/10.1021/ci5001168) (CP), which quantifies the uncertainty in our predictions. In this context, CP can return an active label, an inactive label, a combination of both labels, or an empty set, depending on a specified epsilon value. Lastly, we employ counterfactual explainability (see [exmol](https://github.com/ur-whitelab/exmol)) to enhance the interpretability of our model.
 
 ## Copy Right
-Copyright (c) 2025, Milad Rayka
+Copyright (c) 2025, Milad Rayka, Masoumeh Shams
