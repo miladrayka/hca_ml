@@ -19,13 +19,13 @@ It will be added.
 git clone https://github.com/miladrayka/hca_ml.git
 ```
 
-2- Change directory to *hca_ml* and make a new environment from the *cheminf_env.yaml* file by [Mamba](https://github.com/conda-forge/miniforge) package manager:
+2- Change directory to *hca_ml* and make a new environment from the `cheminf_env.yaml` file by [Mamba](https://github.com/conda-forge/miniforge) package manager:
 ```
 mamba env create -f cheminf_env.yaml
 ```
 
 ## Usage
-To reproduce all results, tables, and figures, uncompress the *Data.tar.xz* and *Results.tar.xz* folders and refer to *workflow.ipynb*.
+To reproduce all results, tables, and figures, uncompress the `Data.tar.xz` and `Results.tar.xz` folders and refer to `workflow.ipynb`.
 
 ## CAInsight GUI
 
@@ -35,6 +35,11 @@ To reproduce all results, tables, and figures, uncompress the *Data.tar.xz* and 
 
 The primary model relies on a Support Vector Machine (SVM) in conjunction with an Extended Connectivity Fingerprint (ECFP). Each hCA isoform has its own SVM-ECFP binary classifier that returns labels indicating whether they are active or inactive. 
 We enhance our models with [conformal prediction](https://pubs.acs.org/doi/abs/10.1021/ci5001168) (CP), which quantifies the uncertainty in our predictions. In this context, CP can return an active label, an inactive label, a combination of both labels, or an empty set, depending on a specified epsilon value. Lastly, we employ counterfactual explainability (see [exmol](https://github.com/ur-whitelab/exmol)) to enhance the interpretability of our model.
+
+To run **CAInsight**, change directory to *hca_ml*, then type the following in the terminal:
+```
+streamlit run gui.py
+```
 
 ## Copy Right
 Copyright (c) 2025, Milad Rayka, Masoumeh Shams
