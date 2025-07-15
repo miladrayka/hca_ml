@@ -17,13 +17,13 @@ Milad Rayka, milad.rayka@yahoo.com
 git clone https://github.com/miladrayka/hca_ml.git
 ```
 
-2- Change directory to *hca_ml* and make a new environment from *cheminf_env.yaml* file by [Mamba](https://github.com/conda-forge/miniforge) package manager:
+2- Change directory to *hca_ml* and make a new environment from the *cheminf_env.yaml* file by [Mamba](https://github.com/conda-forge/miniforge) package manager:
 ```
 mamba env create -f cheminf_env.yaml
 ```
 
 ## Usage
-To reproduce all results, tables, and figures, uncompress to *Data.tar.xz* and *Results.tar.xz* folders and refer to *workflow.ipynb*.
+To reproduce all results, tables, and figures, uncompress the *Data.tar.xz* and *Results.tar.xz* folders and refer to *workflow.ipynb*.
 
 ## CAInsight GUI
 
