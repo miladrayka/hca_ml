@@ -8,8 +8,9 @@ All the codes to reproduce the paper.
 It will be added.
 
 ## Contact
-Milad Rayka, milad.rayka@yahoo.com
-Masoumeh Shams, masoumehshams.gh@gmail.com
+- Milad Rayka, milad.rayka@yahoo.com
+
+- Masoumeh Shams, masoumehshams.gh@gmail.com
 
 ## Install
 
