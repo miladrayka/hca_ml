@@ -1,7 +1,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# An Interpretable and Uncertainty-Aware Machine Learning Model to Predict Activity and Selectivity of Human Carbonic Anhydrase
+# Integrating Machine Learning, Conformal Prediction, and Counterfactuals for Human Carbonic Anhydrase Inhibition Prediction
 All the codes to reproduce the paper.
 
 ## Citation
