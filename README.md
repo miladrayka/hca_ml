@@ -1,7 +1,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Interpretable Machine Learning Unveils Carbonic Anhydrase Inhibition via Conformal and Counterfactuals Prediction
+# Interpretable Machine Learning Unveils Carbonic Anhydrase Inhibition via Conformal and Counterfactual Prediction
 All the codes to reproduce the paper.
 
 ## Citation
