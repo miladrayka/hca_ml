@@ -5,7 +5,7 @@
 All the codes to reproduce the paper.
 
 ## Citation
-It will be added.
+For now, please cite this [preprint version](https://chemrxiv.org/engage/chemrxiv/article-details/68a9751da94eede154350c8a).
 
 ## Contact
 - Milad Rayka, milad.rayka@yahoo.com
