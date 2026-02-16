@@ -33,7 +33,7 @@ def ecfp_generator(smiles_list: List) -> List:
     return ecfp_fvs
 
 
-def probability_dataframe(models, folds_dict, name, split_type="val"):
+def probability_dataframe(models, folds_dict, name, split_type="val"):    
     """
     Generate a combined DataFrame of predicted probabilities and labels,
     and save it to a CSV file.

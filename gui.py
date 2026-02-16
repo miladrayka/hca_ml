@@ -21,13 +21,14 @@ st.image(r"Logo.png")
 st.sidebar.header("Developer")
 st.sidebar.write(
     """[GitHub](https://github.com/miladrayka/hca_ml),
-    Developed by *[Milad Rayka](https://scholar.google.com/citations?user=NxF2f0cAAAAJ&hl=en)*."""
+    Developed by *[Milad Rayka](https://scholar.google.com/citations?user=NxF2f0cAAAAJ&hl=en)*
+    and *[Masoumeh Shams Ghamsary](https://github.com/MasoumehShams)*."""
 )
 st.sidebar.divider()
 st.sidebar.header("Citation")
 st.sidebar.write(
     """**Reference**:
-    Paper is *review.*"""
+    [Interpretable machine learning rationalizes carbonic anhydrase inhibition via conformal and counterfactual prediction](https://www.nature.com/articles/s41598-026-39771-2?utm_source=researchgate.net&utm_medium=article)"""
 )
 
 st.write(
