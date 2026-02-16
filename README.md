@@ -5,7 +5,7 @@
 All the codes to reproduce the paper.
 
 ## Citation
-For now, please cite the [preprint version](https://chemrxiv.org/engage/chemrxiv/article-details/68a9751da94eede154350c8a).
+Please cite the [Interpretable machine learning rationalizes carbonic anhydrase inhibition via conformal and counterfactual prediction](https://www.nature.com/articles/s41598-026-39771-2?utm_source=researchgate.net&utm_medium=article).
 
 ## Contact
 - Milad Rayka, milad.rayka@yahoo.com
